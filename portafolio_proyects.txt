@@ -1,0 +1,4 @@
+1) React Shop
+2) CRUD MERN STACK (FAZT)
+3) 100tifico
+4) myStore(api)
