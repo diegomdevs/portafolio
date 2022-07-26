@@ -19,6 +19,7 @@ header p {
   letter-spacing: 2px;
   text-align: center;
 }
+
 main .main__container-photo {
   width: 100%;
   height: 15rem;
@@ -112,29 +113,66 @@ main .my-skill--tecnologies ul {
   width: 100%;
   display: flex;
   list-style: none;
-  justify-content: space-evenly;
   padding: 0 5rem;
+  justify-content: space-between;
 }
 main .my-skill--tecnologies ul li {
   width: 5rem;
   height: 5rem;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
 }
 main .my-skill--tecnologies ul li:first-child {
   background-image: url("https://pixabay.com/get/gf30f95b524f9fb0251fe3dc759016f4e43cd82a10e838cb41b4cdafa88092ad317fee8dadf8b4c59f6e0ad4f4c207882a787c59e981f5816b9b5837b47fedc98f76d1726ecea5afe3d9981c43e7adf98_640.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #e44d26;
 }
 main .my-skill--tecnologies ul li:nth-child(2) {
   background-image: url("https://pixabay.com/get/ge82ae794c523af03a428041d946e12bbdc208f6730b07ba4d692a47e60b158f4d45d48bdb428e037b1719d1c3d81b62652dbf5c76fe43e73783608af81f54af57ecf0804d63119a73afad598a42fadde_640.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #379ad6;
 }
 main .my-skill--tecnologies ul li:nth-child(3) {
+  background-size: 50%;
+  background-image: url("../assets/Screenshot\ from\ 2022-06-14\ 14-16-19.png");
+  background-color: #f0db4f;
+}
+main .my-skill--tecnologies ul li:nth-child(4) {
+  background-size: 60%;
+  background-image: url("../assets/5968322.png");
+  background-color: #4d4d4d;
+}
+main .my-skill--tecnologies ul li:nth-child(5) {
+  background-size: 70%;
+  background-image: url("../assets/Git-Icon-1788C.png");
+  background-color: #e6e6e6;
+}
 
-  background-image: url("https://pixabay.com/get/g27dd0aa74db2f31603efdeb92a79ac636e69310138c0fbe95a2af56bdf863e5098355c9676d60d5627aa53d3bdb48fea5955fe2bd17329a6612c5bc7299cd08610aee3afc10d02e975fe23ad6017e30d_640.png");
-  background-size: 20px;
-  background-position: center;
-  background-repeat: no-repeat;
+main .main__my-proyects-container {
+  width: 100%;
+  height: fit-content;
+  margin-top: 70px;
+  padding: 0 20%;
+  text-align: center;
+}
+main .main__my-proyects-container h2 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+main .main__my-proyects-container .project-container .project {
+  margin: 50px 0;
+}
+main .main__my-proyects-container .project-container .project * {
+  margin:  20px 0;
+}
+main .main__my-proyects-container .project-container .project h3 {
+  font-size: 2rem;
+}
+main .main__my-proyects-container .project-container .project p {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+main .main__my-proyects-container .project-container .project img {
+  width: 20rem;
+  height: 20rem;
 }
